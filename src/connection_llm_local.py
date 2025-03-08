@@ -11,7 +11,7 @@ from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 # Asegura que "src" esté en sys.path
-#import src.config as config
+import src.config as config
 
 import os
 import json
@@ -45,10 +45,10 @@ else:
 def iniciar_conexion_llm():
 
     # Creating Agent
-    llm = OpenAI(temperature=0, verbose=True, openai_api_key=os.getenv("OPENAI_API_KEY"))
+    llm = OpenAI(temperature=0, verbose=True, openai_api_key=config.OPENAI_API_KEY)
 
     # Crear la URI de conexión
-    BIGQUERY_URI = f"bigquery://{os.getenv("PROJECT_ID")}/{os.getenv("DATASET_ID")}"
+    BIGQUERY_URI = f"bigquery://{config.PROJECT_ID}/{config.DATASET_ID}"
 
     # Crear el motor SQLAlchemy para BigQuery
     engine = create_engine(BIGQUERY_URI)

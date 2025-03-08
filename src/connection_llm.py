@@ -58,7 +58,7 @@ def iniciar_conexion_llm():
 
     ---
 
-    ### 🔹 **Aquí está la respuesta SQL que debes reformatear:**
+    ### 🔹 **Aquí está la respuesta del agente SQL, si es un enunciado en ingles lo tienes que traducir y sino responde a la pregunta usando el valor recibido como respuesta**
     {respuesta_sql}
 
     🔄 **Devuelve la versión mejorada aquí:**

@@ -2,9 +2,16 @@ pandas
 numpy
 requests
 SQLAlchemy 
-psycopg2
+psycopg2-binary
 supabase
 langchain 
 google-cloud-bigquery 
 sqlalchemy-bigquery
 flask
+openai
+langchain-community
+google-cloud-bigquery-storage
+langchain-openai
+setuptools
+wheel
+python-telegram-bot

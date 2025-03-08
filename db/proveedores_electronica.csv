@@ -1,0 +1,103 @@
+ID_Pedido,ID_Cliente,Fecha_Pedido,Fecha_Envío,Fecha_Entrega,ID_Producto,Categoría,Marca,Modelo,Precio,Cantidad_Stock,Estado,Proveedor,Ubicación_Almacén
+ORD001,CLI2107,2024-05-10,2024-05-15,2024-05-17,PRD056,Relojes Inteligentes,GamerPro,Modelo-2744,2705.71,354,Disponible,Proveedor-6,Almacén Norte
+ORD002,CLI6752,2024-10-21,2024-10-26,2024-10-31,PRD036,Cámaras,TechNova,Modelo-6293,418.47,271,Disponible,Proveedor-16,Almacén Norte
+ORD003,CLI5294,2024-10-21,2024-10-23,2024-10-26,PRD090,Consolas de Videojuegos,ElectroMax,Modelo-7675,1147.12,211,Agotado,Proveedor-14,Almacén Norte
+ORD004,CLI8035,2024-09-19,2024-09-24,2024-10-01,PRD051,Teléfonos Inteligentes,SoundWave,Modelo-6727,2335.08,169,Disponible,Proveedor-18,Almacén Sur
+ORD005,CLI8713,2024-01-21,2024-01-22,2024-01-29,PRD047,Teléfonos Inteligentes,GamerPro,Modelo-2409,371.82,257,Agotado,Proveedor-4,Almacén Central
+ORD006,CLI5685,2024-09-05,2024-09-10,2024-09-12,PRD055,Laptops,VisionTech,Modelo-3700,274.33,289,Preventa,Proveedor-18,Almacén Norte
+ORD007,CLI3544,2024-04-19,2024-04-20,2024-04-24,PRD058,Auriculares,TechNova,Modelo-2387,75.13,251,Preventa,Proveedor-7,Almacén Sur
+ORD008,CLI1862,2024-11-14,2024-11-18,2024-11-24,PRD092,Laptops,VisionTech,Modelo-2450,731.87,334,Preventa,Proveedor-10,Almacén Sur
+ORD009,CLI6114,2024-11-25,2024-11-27,2024-12-04,PRD093,Cámaras,SoundWave,Modelo-9704,1444.85,312,Preventa,Proveedor-12,Almacén Sur
+ORD010,CLI4571,2024-03-25,2024-03-30,2024-04-06,PRD010,Auriculares,SoundWave,Modelo-4724,1338.13,485,Preventa,Proveedor-1,Almacén Sur
+ORD011,CLI1882,2024-01-13,2024-01-18,2024-01-25,PRD034,Relojes Inteligentes,ElectroMax,Modelo-5986,1441.29,305,Preventa,Proveedor-5,Almacén Norte
+ORD012,CLI2940,2024-09-27,2024-09-30,2024-10-03,PRD046,Monitores,VisionTech,Modelo-2445,184.71,360,Preventa,Proveedor-11,Almacén Sur
+ORD013,CLI7236,2024-02-13,2024-02-17,2024-02-24,PRD076,Cámaras,ElectroMax,Modelo-9004,2005.2,433,Preventa,Proveedor-2,Almacén Sur
+ORD014,CLI8349,2024-02-28,2024-03-01,2024-03-07,PRD091,Teclados,ElectroMax,Modelo-2056,2073.39,343,Agotado,Proveedor-13,Almacén Sur
+ORD015,CLI3442,2024-08-12,2024-08-14,2024-08-20,PRD098,Monitores,ElectroMax,Modelo-3486,1807.53,238,Preventa,Proveedor-7,Almacén Sur
+ORD016,CLI6718,2024-11-18,2024-11-20,2024-11-23,PRD097,Cámaras,VisionTech,Modelo-7982,2032.59,232,Preventa,Proveedor-6,Almacén Sur
+ORD017,CLI4272,2024-05-26,2024-05-30,2024-06-06,PRD069,Teclados,SoundWave,Modelo-4255,1720.11,220,Disponible,Proveedor-3,Almacén Central
+ORD018,CLI8364,2024-03-21,2024-03-22,2024-03-25,PRD060,Ratones,TechNova,Modelo-7404,1232.37,176,Disponible,Proveedor-2,Almacén Norte
+ORD019,CLI3096,2024-08-07,2024-08-12,2024-08-19,PRD013,Teléfonos Inteligentes,TechNova,Modelo-5116,209.39,40,Agotado,Proveedor-20,Almacén Central
+ORD020,CLI8537,2024-07-17,2024-07-19,2024-07-22,PRD073,Cámaras,VisionTech,Modelo-1706,2292.33,60,Preventa,Proveedor-14,Almacén Sur
+ORD021,CLI9226,2024-11-26,2024-11-28,2024-11-30,PRD035,Cámaras,ElectroMax,Modelo-6949,434.76,262,Disponible,Proveedor-17,Almacén Central
+ORD022,CLI1446,2024-06-04,2024-06-08,2024-06-14,PRD071,Ratones,GamerPro,Modelo-5522,2184.17,478,Preventa,Proveedor-2,Almacén Central
+ORD023,CLI2183,2024-02-02,2024-02-06,2024-02-13,PRD069,Laptops,SoundWave,Modelo-9403,962.99,274,Preventa,Proveedor-5,Almacén Central
+ORD024,CLI9650,2024-07-28,2024-08-01,2024-08-06,PRD094,Monitores,TechNova,Modelo-3477,139.65,390,Preventa,Proveedor-8,Almacén Sur
+ORD025,CLI7524,2024-04-10,2024-04-13,2024-04-15,PRD066,Auriculares,TechNova,Modelo-3315,1527.55,227,Agotado,Proveedor-6,Almacén Central
+ORD026,CLI7863,2024-05-23,2024-05-27,2024-05-30,PRD061,Consolas de Videojuegos,ElectroMax,Modelo-8888,2222.42,290,Preventa,Proveedor-10,Almacén Central
+ORD027,CLI9392,2024-09-23,2024-09-28,2024-10-02,PRD079,Teléfonos Inteligentes,ElectroMax,Modelo-3284,2220.17,9,Agotado,Proveedor-7,Almacén Central
+ORD028,CLI1309,2024-12-03,2024-12-08,2024-12-14,PRD096,Tabletas,GamerPro,Modelo-4808,1703.48,347,Disponible,Proveedor-12,Almacén Norte
+ORD029,CLI3434,2024-04-27,2024-05-02,2024-05-09,PRD063,Ratones,VisionTech,Modelo-7614,1593.18,27,Preventa,Proveedor-16,Almacén Norte
+ORD030,CLI5197,2024-02-18,2024-02-23,2024-02-28,PRD005,Cámaras,ElectroMax,Modelo-2285,1565.24,103,Disponible,Proveedor-9,Almacén Sur
+ORD031,CLI9154,2024-08-16,2024-08-18,2024-08-22,PRD055,Monitores,VisionTech,Modelo-3404,973.83,395,Agotado,Proveedor-2,Almacén Sur
+ORD032,CLI7691,2024-06-08,2024-06-12,2024-06-19,PRD007,Teclados,GamerPro,Modelo-9908,1934.46,169,Disponible,Proveedor-6,Almacén Central
+ORD033,CLI5750,2024-03-08,2024-03-12,2024-03-15,PRD097,Cámaras,GamerPro,Modelo-8292,482.18,220,Agotado,Proveedor-12,Almacén Central
+ORD034,CLI7832,2024-08-08,2024-08-13,2024-08-15,PRD032,Monitores,SoundWave,Modelo-3468,2138.44,108,Preventa,Proveedor-15,Almacén Norte
+ORD035,CLI8561,2024-08-10,2024-08-14,2024-08-18,PRD017,Consolas de Videojuegos,SoundWave,Modelo-7444,1414.7,390,Disponible,Proveedor-12,Almacén Sur
+ORD036,CLI2683,2024-05-07,2024-05-09,2024-05-14,PRD066,Ratones,TechNova,Modelo-5751,778.58,497,Agotado,Proveedor-14,Almacén Sur
+ORD037,CLI5261,2024-02-15,2024-02-19,2024-02-22,PRD021,Tabletas,VisionTech,Modelo-4383,248.35,268,Agotado,Proveedor-19,Almacén Norte
+ORD038,CLI4148,2024-11-23,2024-11-28,2024-12-05,PRD021,Relojes Inteligentes,SoundWave,Modelo-2018,205.4,171,Disponible,Proveedor-7,Almacén Sur
+ORD039,CLI8831,2024-05-09,2024-05-11,2024-05-15,PRD030,Teléfonos Inteligentes,SoundWave,Modelo-4147,2420.55,304,Disponible,Proveedor-19,Almacén Norte
+ORD040,CLI7006,2024-09-23,2024-09-27,2024-10-01,PRD038,Laptops,TechNova,Modelo-1248,2810.04,303,Agotado,Proveedor-4,Almacén Norte
+ORD041,CLI6937,2024-08-01,2024-08-06,2024-08-13,PRD084,Laptops,SoundWave,Modelo-5375,2312.37,272,Disponible,Proveedor-4,Almacén Norte
+ORD042,CLI2840,2024-09-01,2024-09-05,2024-09-10,PRD036,Auriculares,GamerPro,Modelo-9668,1105.61,217,Disponible,Proveedor-6,Almacén Central
+ORD043,CLI7707,2024-06-04,2024-06-07,2024-06-14,PRD041,Tabletas,TechNova,Modelo-4017,456.58,83,Preventa,Proveedor-14,Almacén Norte
+ORD044,CLI2883,2024-04-10,2024-04-13,2024-04-18,PRD034,Laptops,VisionTech,Modelo-4295,2582.72,115,Preventa,Proveedor-2,Almacén Sur
+ORD045,CLI2068,2024-09-28,2024-10-01,2024-10-06,PRD043,Consolas de Videojuegos,TechNova,Modelo-5960,644.59,282,Disponible,Proveedor-12,Almacén Sur
+ORD046,CLI9694,2024-07-02,2024-07-05,2024-07-09,PRD065,Consolas de Videojuegos,ElectroMax,Modelo-3099,107.71,479,Agotado,Proveedor-10,Almacén Norte
+ORD047,CLI6082,2024-11-28,2024-11-29,2024-12-04,PRD076,Laptops,GamerPro,Modelo-5029,696.64,201,Preventa,Proveedor-9,Almacén Sur
+ORD048,CLI4050,2024-09-04,2024-09-07,2024-09-11,PRD090,Teléfonos Inteligentes,SoundWave,Modelo-4970,2697.92,210,Agotado,Proveedor-17,Almacén Central
+ORD049,CLI5179,2024-06-14,2024-06-15,2024-06-20,PRD056,Consolas de Videojuegos,GamerPro,Modelo-3538,231.68,373,Disponible,Proveedor-8,Almacén Central
+ORD050,CLI8702,2024-03-10,2024-03-15,2024-03-17,PRD044,Consolas de Videojuegos,TechNova,Modelo-7137,1674.21,3,Preventa,Proveedor-6,Almacén Norte
+ORD051,CLI5302,2024-07-16,2024-07-19,2024-07-22,PRD102,Auriculares,TechNova,Modelo-8487,2290.85,431,Disponible,Proveedor-20,Almacén Central
+ORD052,CLI1999,2024-11-02,2024-11-05,2024-11-12,PRD030,Auriculares,SoundWave,Modelo-3153,1942.79,111,Agotado,Proveedor-9,Almacén Norte
+ORD053,CLI2680,2024-04-09,2024-04-13,2024-04-17,PRD013,Ratones,SoundWave,Modelo-4717,796.82,232,Disponible,Proveedor-5,Almacén Central
+ORD054,CLI1590,2024-02-15,2024-02-19,2024-02-26,PRD081,Teléfonos Inteligentes,TechNova,Modelo-9820,2694.68,65,Agotado,Proveedor-13,Almacén Central
+ORD055,CLI4478,2024-09-02,2024-09-07,2024-09-10,PRD088,Monitores,SoundWave,Modelo-6559,1685.37,380,Disponible,Proveedor-20,Almacén Central
+ORD056,CLI5879,2024-02-06,2024-02-11,2024-02-13,PRD024,Ratones,TechNova,Modelo-6475,2868.11,341,Agotado,Proveedor-14,Almacén Sur
+ORD057,CLI5707,2024-10-10,2024-10-12,2024-10-15,PRD051,Tabletas,GamerPro,Modelo-4482,1950.74,100,Agotado,Proveedor-2,Almacén Norte
+ORD058,CLI4851,2024-12-02,2024-12-03,2024-12-10,PRD016,Relojes Inteligentes,ElectroMax,Modelo-2340,1839.73,269,Disponible,Proveedor-18,Almacén Norte
+ORD059,CLI2574,2024-01-17,2024-01-22,2024-01-24,PRD072,Cámaras,VisionTech,Modelo-2123,1005.2,287,Preventa,Proveedor-7,Almacén Central
+ORD060,CLI1329,2024-06-03,2024-06-04,2024-06-06,PRD083,Teclados,GamerPro,Modelo-8514,2281.71,85,Disponible,Proveedor-3,Almacén Central
+ORD061,CLI6167,2024-05-11,2024-05-12,2024-05-16,PRD060,Monitores,GamerPro,Modelo-4070,508.11,433,Preventa,Proveedor-1,Almacén Sur
+ORD062,CLI2267,2024-05-13,2024-05-15,2024-05-20,PRD077,Tabletas,ElectroMax,Modelo-6853,1267.89,351,Preventa,Proveedor-1,Almacén Central
+ORD063,CLI7494,2024-04-18,2024-04-23,2024-04-27,PRD065,Cámaras,TechNova,Modelo-6658,1662.98,98,Disponible,Proveedor-16,Almacén Norte
+ORD064,CLI4133,2024-02-14,2024-02-19,2024-02-25,PRD075,Cámaras,VisionTech,Modelo-4556,1603.36,147,Agotado,Proveedor-17,Almacén Norte
+ORD065,CLI7468,2024-07-13,2024-07-17,2024-07-21,PRD054,Teclados,SoundWave,Modelo-1890,1398.13,409,Disponible,Proveedor-17,Almacén Central
+ORD066,CLI8431,2024-07-24,2024-07-26,2024-07-31,PRD033,Monitores,SoundWave,Modelo-5161,860.54,226,Disponible,Proveedor-5,Almacén Central
+ORD067,CLI5867,2024-06-07,2024-06-08,2024-06-10,PRD056,Teclados,VisionTech,Modelo-1888,2820.06,265,Disponible,Proveedor-13,Almacén Norte
+ORD068,CLI6236,2024-10-18,2024-10-20,2024-10-23,PRD027,Tabletas,VisionTech,Modelo-3780,1663.91,413,Disponible,Proveedor-12,Almacén Central
+ORD069,CLI1438,2024-03-10,2024-03-15,2024-03-19,PRD094,Teléfonos Inteligentes,ElectroMax,Modelo-2633,246.9,464,Agotado,Proveedor-10,Almacén Sur
+ORD070,CLI8349,2024-12-23,2024-12-24,2024-12-30,PRD039,Relojes Inteligentes,TechNova,Modelo-9248,2624.23,486,Preventa,Proveedor-2,Almacén Central
+ORD071,CLI8174,2024-12-27,2024-12-29,2025-01-03,PRD020,Monitores,ElectroMax,Modelo-7600,2551.36,178,Disponible,Proveedor-6,Almacén Norte
+ORD072,CLI9502,2024-05-02,2024-05-04,2024-05-11,PRD070,Cámaras,SoundWave,Modelo-8587,1219.32,297,Agotado,Proveedor-7,Almacén Sur
+ORD073,CLI8046,2024-12-24,2024-12-27,2025-01-03,PRD037,Teléfonos Inteligentes,VisionTech,Modelo-4205,1314.1,410,Agotado,Proveedor-11,Almacén Sur
+ORD074,CLI8851,2024-06-15,2024-06-19,2024-06-24,PRD060,Consolas de Videojuegos,VisionTech,Modelo-2973,1785.6,473,Agotado,Proveedor-4,Almacén Sur
+ORD075,CLI9652,2024-07-25,2024-07-26,2024-07-31,PRD036,Consolas de Videojuegos,VisionTech,Modelo-1313,407.24,98,Disponible,Proveedor-20,Almacén Sur
+ORD076,CLI4522,2024-04-01,2024-04-05,2024-04-10,PRD040,Auriculares,VisionTech,Modelo-8147,923.93,232,Preventa,Proveedor-10,Almacén Norte
+ORD077,CLI5172,2024-01-02,2024-01-03,2024-01-08,PRD085,Teléfonos Inteligentes,GamerPro,Modelo-7848,490.66,229,Agotado,Proveedor-7,Almacén Sur
+ORD078,CLI7228,2024-09-18,2024-09-20,2024-09-26,PRD049,Relojes Inteligentes,GamerPro,Modelo-7125,778.1,348,Agotado,Proveedor-12,Almacén Norte
+ORD079,CLI6920,2024-05-09,2024-05-12,2024-05-14,PRD083,Laptops,SoundWave,Modelo-2925,1617.95,166,Disponible,Proveedor-8,Almacén Norte
+ORD080,CLI1531,2024-10-03,2024-10-05,2024-10-09,PRD079,Teléfonos Inteligentes,GamerPro,Modelo-9005,273.17,206,Agotado,Proveedor-9,Almacén Central
+ORD081,CLI9295,2024-12-03,2024-12-08,2024-12-11,PRD078,Laptops,VisionTech,Modelo-8348,676.92,497,Disponible,Proveedor-20,Almacén Central
+ORD082,CLI4173,2024-11-06,2024-11-08,2024-11-12,PRD034,Cámaras,GamerPro,Modelo-5572,581.77,484,Agotado,Proveedor-9,Almacén Sur
+ORD083,CLI6851,2024-08-13,2024-08-14,2024-08-17,PRD038,Laptops,ElectroMax,Modelo-3400,552.1,388,Agotado,Proveedor-19,Almacén Central
+ORD084,CLI4718,2024-04-06,2024-04-09,2024-04-16,PRD047,Teléfonos Inteligentes,ElectroMax,Modelo-4102,1846.14,144,Preventa,Proveedor-19,Almacén Sur
+ORD085,CLI9992,2024-11-11,2024-11-13,2024-11-19,PRD055,Monitores,SoundWave,Modelo-8954,810.2,307,Disponible,Proveedor-18,Almacén Central
+ORD086,CLI1735,2024-12-19,2024-12-22,2024-12-27,PRD065,Auriculares,TechNova,Modelo-9434,1861.63,372,Disponible,Proveedor-3,Almacén Central
+ORD087,CLI9859,2024-02-15,2024-02-16,2024-02-22,PRD094,Ratones,GamerPro,Modelo-6123,1033.34,201,Agotado,Proveedor-6,Almacén Norte
+ORD088,CLI1398,2024-06-17,2024-06-22,2024-06-24,PRD011,Teclados,ElectroMax,Modelo-7244,2831.39,411,Preventa,Proveedor-10,Almacén Norte
+ORD089,CLI2818,2024-04-13,2024-04-17,2024-04-20,PRD082,Tabletas,TechNova,Modelo-2375,320.56,479,Agotado,Proveedor-15,Almacén Central
+ORD090,CLI6665,2024-06-28,2024-07-02,2024-07-07,PRD046,Consolas de Videojuegos,VisionTech,Modelo-5529,834.35,145,Preventa,Proveedor-13,Almacén Sur
+ORD091,CLI5758,2024-11-09,2024-11-14,2024-11-21,PRD045,Ratones,ElectroMax,Modelo-8762,1488.66,286,Agotado,Proveedor-20,Almacén Central
+ORD092,CLI8325,2024-07-17,2024-07-18,2024-07-24,PRD048,Laptops,VisionTech,Modelo-1901,657.07,414,Agotado,Proveedor-8,Almacén Central
+ORD093,CLI7614,2024-06-02,2024-06-03,2024-06-09,PRD033,Cámaras,SoundWave,Modelo-7769,1793.18,440,Agotado,Proveedor-14,Almacén Central
+ORD094,CLI3675,2024-07-17,2024-07-18,2024-07-20,PRD085,Laptops,VisionTech,Modelo-2921,302.15,335,Agotado,Proveedor-7,Almacén Central
+ORD095,CLI5236,2024-12-23,2024-12-24,2024-12-29,PRD054,Laptops,ElectroMax,Modelo-5763,2021.79,420,Preventa,Proveedor-4,Almacén Sur
+ORD096,CLI4424,2024-05-10,2024-05-14,2024-05-17,PRD022,Auriculares,VisionTech,Modelo-5492,1589.9,64,Disponible,Proveedor-3,Almacén Central
+ORD097,CLI3324,2024-10-28,2024-10-30,2024-11-04,PRD023,Auriculares,VisionTech,Modelo-8162,580.19,169,Disponible,Proveedor-4,Almacén Sur
+ORD098,CLI9895,2024-01-23,2024-01-26,2024-01-29,PRD024,Monitores,TechNova,Modelo-5162,2300.74,353,Agotado,Proveedor-16,Almacén Sur
+ORD099,CLI3191,2024-05-23,2024-05-25,2024-05-28,PRD010,Auriculares,VisionTech,Modelo-3308,1039.65,349,Preventa,Proveedor-18,Almacén Norte
+ORD100,CLI7445,2024-11-13,2024-11-14,2024-11-18,PRD097,Auriculares,VisionTech,Modelo-5246,611.92,378,Disponible,Proveedor-2,Almacén Sur
+ORD101,CLI3141,2024-01-01,2024-01-03,2024-01-09,PRD069,Auriculares,GamerPro,Modelo-1396,460.19,52,Preventa,Proveedor-3,Almacén Sur
+ORD102,CLI8312,2024-09-18,2024-09-21,2024-09-28,PRD029,Cámaras,SoundWave,Modelo-8350,2893.62,313,Agotado,Proveedor-13,Almacén Central

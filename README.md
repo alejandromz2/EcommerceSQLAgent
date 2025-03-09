@@ -76,11 +76,11 @@ gcloud auth application-default login
 ```
 #### Plan te permite ver que cambios se van a aplicar
 ```sh
-terraform apply -auto-approve
+terraform plan
 ```
 #### Aplicas los cambios en terraform
 ```sh
-terraform apply -var="openai_api_key=TU_OPENAI_API_KEY" -auto-approve
+terraform apply -auto-approve
 ```
 
 #### Posteriormente hacemos que el servicio que hemos creado sea publico

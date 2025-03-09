@@ -76,7 +76,7 @@ gcloud auth application-default login
 ```
 #### Plan te permite ver que cambios se van a aplicar
 ```sh
-terraform apply -var="telegram_token=TU_TELEGRAM_BOT_TOKEN" -var="openai_api_key=TU_OPENAI_API_KEY" -auto-approve
+terraform apply -auto-approve
 ```
 #### Aplicas los cambios en terraform
 ```sh

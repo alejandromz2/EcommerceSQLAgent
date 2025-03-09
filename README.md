@@ -80,5 +80,28 @@ terraform apply -var="telegram_token=TU_TELEGRAM_BOT_TOKEN" -var="openai_api_key
 ```
 #### Aplicas los cambios en terraform
 ```sh
-terraform apply -var="telegram_token=TU_TELEGRAM_BOT_TOKEN" -var="openai_api_key=TU_OPENAI_API_KEY" -auto-approve
+terraform apply -var="openai_api_key=TU_OPENAI_API_KEY" -auto-approve
 ```
+
+#### Posteriormente hacemos que el servicio que hemos creado sea publico
+```sh
+gcloud run services add-iam-policy-binding sql-agent-api \
+    --member="allUsers" \
+    --role="roles/run.invoker" \
+    --region=us-central1
+```
+
+#### Realizamos este comando para ver el url del servicio
+```sh
+  terraform output cloud_run_url
+```
+#### La respuesta tiene que ser esta:
+```ini
+cloud_run_url = "https://sql-agent-api-xxxxx-uc.a.run.app"
+```
+
+#### Posteriormente tienes que realizar el webhook para que el api de telegram detecte el bot
+```sh
+curl -X POST "https://api.telegram.org/bot<TELEGRAM_TOKEN>/setWebhook?url=<CLOUD_RUN_URL>/webhook"
+```
+

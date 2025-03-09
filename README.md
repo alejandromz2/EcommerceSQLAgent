@@ -1,27 +1,84 @@
 
+# 
 ## Para pruebas locales
 
 Para hacer accesible tu puerto
-sh
+```sh
 ngrok http 5600 
+```
 
 Esto te dará un url igual a https://123.ngrok-free.app el cual es accesible gracias a ngrok
 Posteriormente tienes que hacer accesible este url por medio de un webhook del api de telegram
 
-sh
+```sh
 curl -X POST "https://api.telegram.org/bot7935980561:AAFeanQu_2e9giVKRqVM5dovFtO5dtaEC_w/setWebhook?url=https://123.ngrok-free.app/webhook"
+```
 
+## Para subir el docker a la nube usando Terraform
 
-# Para subir el docker a la nube usando Terraform
+### 1. Primero iniciamos sesión en GCP: 
 
-1. Primero iniciamos sesión en GCP: 
-
-sh
+```sh
 gcloud auth login
+```
+### 2. Posteriomente seleccionas el proyecto:
 
-2. Posteriomente seleccionas el proyecto:
-
-sh
+```sh
 gcloud config set project TU_PROYECTO_ID
+```
+### 3. Habilitamos los servicios necesarios:
+
+```sh
+gcloud services enable run.googleapis.com
+gcloud services enable artifactregistry.googleapis.com
+gcloud services enable iam.googleapis.com
+```
+
+### 4. Creas un repositorio de imagenes en Artifact Registry 
+
+```sh
+gcloud artifacts repositories create chatbot-repo \
+  --repository-format=docker \
+  --location=us-central1
+```
+
+### 5. Construir y subir la imagen Docker
+
+#### Autentificarse en Artifact Registry
+```sh
+gcloud auth configure-docker us-central1-docker.pkg.dev
+```
+
+#### Construir la imagen Docker
+```sh
+docker build -t us-central1-docker.pkg.dev/TU_PROYECTO_ID/chatbot-repo/sql-agent-api .
+```
+
+#### Subir la imagen a Artifact Registry
+```sh
+docker push us-central1-docker.pkg.dev/TU_PROYECTO_ID/chatbot-repo/sql-agent-api
+```
 
 
+### 6. Inicializar y Aplicar Terraform
+
+#### Posicionarte en la carpeta d terraform-cloudrun
+```sh
+cd terraform-cloudrun
+```
+#### Iniciar Terraform
+```sh
+terraform init
+```
+#### Realiza esta autentifacion
+```sh
+gcloud auth application-default login
+```
+#### Plan te permite ver que cambios se van a aplicar
+```sh
+terraform apply -var="telegram_token=TU_TELEGRAM_BOT_TOKEN" -var="openai_api_key=TU_OPENAI_API_KEY" -auto-approve
+```
+#### Aplicas los cambios en terraform
+```sh
+terraform apply -var="telegram_token=TU_TELEGRAM_BOT_TOKEN" -var="openai_api_key=TU_OPENAI_API_KEY" -auto-approve
+```

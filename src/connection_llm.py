@@ -11,44 +11,22 @@ from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 # Asegura que "src" esté en sys.path
-#import src.config as config
+import src.config as config
 
 import os
 import json
 import base64
 
-# Leer la variable de entorno y decodificarla
-service_account_json = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
-
-if service_account_json:
-    # Decodificar el JSON desde Base64
-    service_account_info = json.loads(base64.b64decode(service_account_json))
-
-    # Crear un archivo temporal para almacenar las credenciales
-    temp_json_path = Path("/tmp/service_account.json")  # Para Linux/macOS
-    # temp_json_path = Path("C:\\temp\\service_account.json")  # Si usas Windows
-
-    with open(temp_json_path, "w") as f:
-        json.dump(service_account_info, f)
-
-    # Establecer la variable de entorno con la ruta del archivo temporal
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(temp_json_path)
-
-    print("✅ Credenciales de Google Cloud configuradas correctamente.")
-else:
-    print("❌ ERROR: No se encontraron las credenciales en las variables de entorno.")
-
-
-
-
 
 def iniciar_conexion_llm():
 
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = config.GOOGLE_CREDENTIALS
+
     # Creating Agent
-    llm = OpenAI(temperature=0, verbose=True, openai_api_key=os.getenv("OPENAI_API_KEY"))
+    llm = OpenAI(temperature=0, verbose=True, openai_api_key=config.OPENAI_API_KEY)
 
     # Crear la URI de conexión
-    BIGQUERY_URI = f"bigquery://{os.getenv("PROJECT_ID")}/{os.getenv("DATASET_ID")}"
+    BIGQUERY_URI = f"bigquery://{config.PROJECT_ID}/{config.DATASET_ID}"
 
     # Crear el motor SQLAlchemy para BigQuery
     engine = create_engine(BIGQUERY_URI)
